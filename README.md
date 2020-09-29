@@ -1,23 +1,31 @@
+<p align="center">
+  <a href="https://discord.com/oauth2/authorize?client_id=759594769079992370&scope=bot&permissions=4197440"><img alt="Bot status" src="https://img.shields.io/badge/Status-online-brightgreen"></a>
+</p>
+
 # AmongUsHelper
-No more "😱 omg,blue killed me" in the middle of the game!
+No more accidental "😱 Omg, blue killed me!" in the middle of the game! This Discord bot is made to help players in Among Us matches.
 
-Discord bot made to help players in among us matches.
+## Adding to your server
+You can add AmongUsHelper using this following [link](https://discord.com/oauth2/authorize?client_id=759594769079992370&scope=bot&permissions=4197440).
 
-<!-- Bot para Discord para auxliar as partidas do jogo Among Us. -->
+## Commands
+* To mute 🔇:
+    * Just type `!mute` or `!m`
+* To unmute 🔈:
+    * Just type `!unmute` or `!um`
 
-# Commands
-* To mute 🔇
- `Just type mute or m`
-* To unmute 🔈
- `Just type unmute or um`
+These commands will work only on the channel that the user was when sent the command. More commands soon.
 
-These commands will only work on the channel of the player that sent the message;
+## Features
+- Mute a channel;
+- Unmute a channel.
 
-# Features
-- Mute a channel
-- Unmute a channel
+## Future features
+- Dead player mute;
+- Speech to text capabilities to perform commands using voice;
+- Commands personalization.
 
-# Wanna suggest a feature ?
-Just say hi in to one of these guys :
-- Legendary Trucker#6582 
+## Wanna suggest a feature?
+Just say "hi" to one of these guys:
+- Legendary Trucker#6582
 - Set#8314
