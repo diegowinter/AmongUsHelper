@@ -3,10 +3,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client(); 
 
 const muteAction = require('./actions/voice/mute');
-const config = {
-    "prefix": "!",
-    "token": process.env.TOKEN
- }
+const config = require('./settings/config')
 
 client.on("ready", () => {
   console.log(`Bot foi iniciado, ${client.user.tag} com ${client.users.size} usuários, em ${client.channels.size} canais, em ${client.guilds.size} servidores.`); 
@@ -33,5 +30,3 @@ client.on("message", async message => {
 });
 
 client.login(config.token);
-
-// https://discord.com/oauth2/authorize?client_id=759594769079992370&scope=bot&permissions=4197440
