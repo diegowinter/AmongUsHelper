@@ -6,7 +6,7 @@ const muteAction = require('./actions/voice/mute');
 const config = require('./settings/config')
 
 client.on("ready", () => {
-  console.log(`Bot foi iniciado, ${client.user.tag} com ${client.users.size} usuários, em ${client.channels.size} canais, em ${client.guilds.size} servidores.`); 
+    console.log(`Bot foi iniciado, ${client.user.tag} com ${client.users.size} usuários, em ${client.channels.size} canais, em ${client.guilds.size} servidores.`); 
 });
 
 client.on("message", async message => {
